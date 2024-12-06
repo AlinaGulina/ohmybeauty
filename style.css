@@ -603,3 +603,20 @@ html{
     font-weight:bold;
     font-size: small;
 }
+.btn-form a {
+    margin-left: 570px;
+    margin-top: 30px;
+    background-color: #ffb7d1;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    padding: 20px 45px;
+    text-decoration: none;
+    
+}
+
+.btn-form a:hover {
+    background-color: #d692ab;
+}
