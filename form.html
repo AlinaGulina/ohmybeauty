@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+	<title>Oh My Beauty!</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <link rel="icon" href="favicon.ico" type="image/x-icon">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+</head>
+<body>  
+
+    <div class="header-top">                                                               
+        <div class="welcome">
+            <img alt="Почта" src="img/email.png" >
+            <div class="mail">
+                <a href="mailto:info@ohmybeautystore.ru">info@ohmybeautystore.ru</a>
+            </div>
+            <img alt="Телефон" src="img/phone-call.png">
+            <div class="phone">
+                <a href="tel:89101790955">8(910)179-09-55</a>
+            </div>                           
+        </div>                                                                        
+    </div>    
+    <header id="header">           
+                
+        <div class="header-botton">              
+            <div class="search-catalog">
+                <div class="catalog"> 
+                    <a href="catalog.html"><img src="img/catalog.png" alt="Каталог"></a>
+                </div> 
+                <div class="search-box">         
+                    <form class="search">
+                        <button type="submit"><img src="img/searchb.png" alt="Search" style="height:12px" ></button>
+                        <input type="text"  placeholder="Что интересует? " style="height:40px">
+                        
+                    
+                    </form> 
+                </div>                  
+            </div>
+
+            <div class="logo">
+                <a href="index.html#"> <img src="img/logo.png" alt="Logo"></a>
+            </div>
+            
+            <div class="header-right">
+                <div class="account">
+                    <a href="entrance.html"><img src="img/client.png" alt="Личный кабинет"></a>
+                    <!-- <img alt="Аккаунт" src="client.png" >-->
+                </div>
+                <div class="like">
+                    <a href="like.html"><img  src="img/heart.png" alt="Избранное"></a>
+            
+                </div>
+                <div class="shop">
+                    <a href="shopping.html"><img  src="img/shopping-basket.png" alt="Корзина" ></a>                
+                    <small class="count" >0</small>
+                </div> 
+
+            </div>                                    
+        </div>
+    </header>
+    <main>
+      <div class="container" id="form-cont">
+        <h1>Форма обратной связи</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+          <div class="logofooter">
+              <img src="img/logo.png" alt="Logo">
+          </div>
+      
+          <div class="contacts">
+              <div class="contact-top">
+                  <h1>Наши контакты</h1>
+              </div>
+              <ul class="contact-footer">
+                  <li>
+                      <p>Почта:  </p> <a href="mailto:info@ohmybeautystore.ru">info@ohmybeautystore.ru</a><br>
+                  </li>
+                  <li>
+                      <p>Контактный телефон:  </p><a href="tel:89101790955">8(910)179-09-55</a>
+                  </li>
+              </ul>               		        
+          </div>   
+          <div class="btn-form">
+              <a href="form.html">Обратная связь</a>
+
+          </div>                         
+      </div>
+              
+      <div class="welcome" id="End">           
+          <p>Ⓒ2024-н.в. Все права защищены</p>
+      </div>
+                 
+  </footer>
+  <div class="top" title="К началу страницы" id="scroll-up"><a href="#"><img src="img/up.png" alt=""></a></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
