@@ -134,7 +134,7 @@ div.logo img {
 
 header {
     position: sticky;
-    top: 0px;
+    top: -2px;
     opacity: 0.9;
     z-index: 999999;
     /*position: fixed;
@@ -517,6 +517,13 @@ footer {
     margin-top: 20px;
     margin-bottom: 0%;
 }
+.info-footer a{
+    color: #383838;
+    font-size: 30px;
+}
+.info-footer :hover{
+    color: #ffffff;
+}
 ul {
     margin: 0%;
 }
@@ -604,7 +611,7 @@ html{
     font-size: small;
 }
 .btn-form a {
-    margin-left: 570px;
+    margin-left: 500px;
     margin-top: 30px;
     background-color: #ffb7d1;
     border-radius: 30px;
@@ -619,4 +626,7 @@ html{
 
 .btn-form a:hover {
     background-color: #d692ab;
+}
+main{
+    weight:100%;
 }
